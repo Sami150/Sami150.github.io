@@ -10,7 +10,7 @@ let posts = [
   {
     id: 2,
     text: "Watch this amazing video!",
-    media: { type: "video", url: "https://youtu.be/embed/IBdSl7yeIiw?si=E3lckRmbA4HPs_nV" },
+    media: { type: "video", url: "vedio.mp4" },
     likes: 0,
     liked: false,
     comments: []
