@@ -2,7 +2,7 @@ let posts = [
   {
     id: 1,
     text: "A beautiful sunset!",
-    media: { type: "image", url: "https://drive.google.com/file/d/1pjyP7kW8G49UpBMrVCDh5KLmnzeTxliz/view?usp=drivesdk" },
+    media: { type: "vedio", url: "sunset.jpg" },
     likes: 0,
     liked: false,
     comments: []
