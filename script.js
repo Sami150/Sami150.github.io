@@ -2,7 +2,7 @@ let posts = [
   {
     id: 1,
     text: "A beautiful sunset!",
-    media: { type: "image", url: "sunset.jpg" },
+    media: { type: "image", url: "https://www.google.com/search?client=ms-android-xiaomi-rvo3&sca_esv=04268fcd01117b60&sxsrf=AE3TifMAvlioeuDW3cNmiipk11EsNF1A1Q:1748018103985&udm=2&fbs=AIIjpHxU7SXXniUZfeShr2fp4giZ1Y6MJ25_tmWITc7uy4KIeuYzzFkfneXafNx6OMdA4MQRJc_t_TQjwHYrzlkIauOK_IaFSQcTHs2AgJbmYqOLNlPDT0Hy19TTgd1LyYk-nATqUlksEoQZVG09gZfle_U4HWWnSbP00Bg1jXXhxPXHO_ZklXeHNi63K93FV-i7HL9XSIXF&q=sunset&sa=X&sqi=2&ved=2ahUKEwiqmpjxgrqNAxWsRPEDHc2QAV4QtKgLegQIEhAB" },
     likes: 0,
     liked: false,
     comments: []
