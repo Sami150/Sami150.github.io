@@ -10,7 +10,7 @@ let posts = [
   {
     id: 2,
     text: "Watch this amazing video!",
-    media: { type: "video", url: "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.youtube.com/watch%3Fv%3DIBdSl7yeIiw&ved=2ahUKEwi4l9qfg7qNAxWQhv0HHRQCE8wQz40FegQIFRAJ&usg=AOvVaw12EUALxo281nr66jgoS-tq" },
+    media: { type: "video", url: "https://youtu.be/IBdSl7yeIiw?si=E3lckRmbA4HPs_nV" },
     likes: 0,
     liked: false,
     comments: []
