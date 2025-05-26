@@ -39,16 +39,17 @@
       line-height: 1.8;
       padding-left: 20px;
     }
-    .job {
-      margin-bottom: 20px;
+    .job h3, .read-more-btn {
+      margin-top: 10px;
+      color: #007b83;
+      cursor: pointer;
     }
-    .job h3 {
-      margin-bottom: 5px;
-      color: #333;
-    }
-    .job span {
-      color: #666;
-      font-size: 0.9em;
+    .read-more-content {
+      display: none;
+      margin-top: 10px;
+      padding: 10px;
+      background-color: #f1f1f1;
+      border-left: 4px solid #007b83;
     }
     footer {
       text-align: center;
@@ -74,39 +75,39 @@
         <h3>Administrative Department Worker – Ministry of Public Health</h3>
         <span>Aug 2021 – Present</span>
         <ul>
-          <li>Monitored and evaluated health system performance and infrastructure.</li>
-          <li>Prepared reports, inspections, and action plans for service improvement.</li>
-          <li>Coordinated health policy and program implementation with stakeholders.</li>
-          <li>Demonstrated leadership, problem-solving, and data analysis skills.</li>
+          <li>Monitored and evaluated health system performance.</li>
+          <li>Coordinated policies and programs across departments.</li>
         </ul>
+        <p class="read-more-btn" onclick="toggleContent('exp1')">Read More</p>
+        <div class="read-more-content" id="exp1">
+          <p>I prepared detailed inspection reports, managed hospital quality standards, and developed action plans for better service delivery. I worked with external partners, handled internal reports, and presented data to leadership for decision-making. This role strengthened my leadership, analytical thinking, and professional communication skills.</p>
+        </div>
       </div>
 
       <div class="job">
         <h3>Vaccine Campaign Worker – Kabul Province</h3>
         <span>Feb 2020 – Mar 2021</span>
         <ul>
-          <li>Registered and screened beneficiaries for COVID-19 vaccination.</li>
-          <li>Administered vaccines and monitored for adverse reactions.</li>
-          <li>Educated communities and promoted vaccination awareness.</li>
-          <li>Maintained accurate records of inventory and administration.</li>
+          <li>Assisted in COVID-19 vaccination registration and education.</li>
+          <li>Maintained inventory and documented vaccine administration.</li>
         </ul>
+        <p class="read-more-btn" onclick="toggleContent('exp2')">Read More</p>
+        <div class="read-more-content" id="exp2">
+          <p>I collaborated with health authorities and community leaders to raise awareness. I responded to public questions, monitored post-vaccination reactions, and reported outcomes to medical teams. This helped build my teamwork, crisis-response, and public engagement experience.</p>
+        </div>
       </div>
     </section>
 
     <section>
       <h2>Key Skills</h2>
       <ul>
-        <li>Organization and Time Management</li>
-        <li>Attention to Detail</li>
-        <li>Written and Verbal Communication</li>
-        <li>Customer Service Orientation</li>
-        <li>Microsoft Office (Word, Excel, PowerPoint)</li>
-        <li>Data Entry and Record Keeping</li>
-        <li>Multitasking and Prioritization</li>
-        <li>Problem Solving and Decision Making</li>
-        <li>Adaptability and Flexibility</li>
-        <li>Confidentiality and Discretion</li>
+        <li>Time Management and Organization</li>
+        <li>Record Keeping and Data Entry</li>
       </ul>
+      <p class="read-more-btn" onclick="toggleContent('skills')">Read More</p>
+      <div class="read-more-content" id="skills">
+        <p>Additionally, I am proficient in Microsoft Office Suite, skilled in handling sensitive information with confidentiality, and capable of multitasking in high-pressure environments. My background in administrative work has taught me how to prioritize tasks efficiently and communicate professionally with diverse teams.</p>
+      </div>
     </section>
 
     <section>
@@ -114,8 +115,11 @@
       <ul>
         <li>Dari – Fluent</li>
         <li>Pashto – Advanced</li>
-        <li>English – Advanced</li>
       </ul>
+      <p class="read-more-btn" onclick="toggleContent('languages')">Read More</p>
+      <div class="read-more-content" id="languages">
+        <p>I am also capable of working in English at an advanced level, both spoken and written, including composing reports, responding to professional emails, and conducting meetings. This multilingual ability helps me adapt to various teams and communicate with diverse communities effectively.</p>
+      </div>
     </section>
 
   </div>
@@ -123,6 +127,13 @@
   <footer>
     &copy; 2025 Sami Raufi | Kabul, Afghanistan | Email: Samimohammadi0099@gmail.com
   </footer>
+
+  <script>
+    function toggleContent(id) {
+      const content = document.getElementById(id);
+      content.style.display = content.style.display === 'block' ? 'none' : 'block';
+    }
+  </script>
 
 </body>
 </html>
